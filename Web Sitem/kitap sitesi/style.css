@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: grid ;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header"
+    "article"
+    "footer";
+    background-color: #F4E5D0;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw;
+}
+.books{
+    display: flex;
+    width: 150px;
+    height: 45px;
+    border-radius: 40%;
+    background-color: #D4AE5B;
+    justify-content: center;
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 40px;
+    margin-left: 20vw;
+   
+}
+.books > p{
+ margin left: 30px;
+ margin-left: 0,8vw;
+}
+.musıc{
+    font-family: 'Ravi Prakash', cursive;
+    font-size: 40px;
+    display: flex;
+    padding-right: 50vw;
+}
+.books,.musıc{
+    display: flex;
+    justify-content: center;
+}
+.kitaplar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+.çizgi1{
+    display: flex;
+    width: 1700x;
+    height: 5px;
+    background-color: #D4AE5B;
+}
+.klasikler{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+.klasikler2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vw;
+}
+footer{
+    width: 60px;
+    height: 45px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10vw;
+}
